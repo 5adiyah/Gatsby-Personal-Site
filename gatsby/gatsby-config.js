@@ -10,5 +10,16 @@ module.exports = {
         implementation: require('sass'),
       },
     },
+    {
+      resolve: `gatsby-plugin-sass-resources`,
+      options: {
+        resources: [
+          './src/styles/config/*.scss',
+          './src/styles/layout/*.scss',
+          './src/styles/global/*.scss',
+          './src/styles/components/*.scss',
+        ],
+      },
+    },
   ],
 };
