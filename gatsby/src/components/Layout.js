@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 import Nav from './Nav';
 import 'normalize.css';
-import '../styles/style.scss';
+import '../styles/styles.scss';
 
 export default function Layout({ children }) {
   return (

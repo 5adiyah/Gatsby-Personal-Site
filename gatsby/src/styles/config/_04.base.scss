@@ -2,6 +2,7 @@ body {
     @include font-line-height(16, 30);
     font-family: $lato;
     color: $black;
+    background-color: $blue;
 }
 
 h1, .h1,
